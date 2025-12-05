@@ -60,4 +60,4 @@ df_casal = df[df['ID Kit'].apply(lambda x: x in casais[casal]['id_kit'])]
 st.markdown('# Kits comprados')
 for i in sorted(casais[casal]['id_kit']):
     st.markdown(f'## {i} - {df_casal[df_casal['ID Kit'] == i]['Nome do Kit'].iloc[0].split('\n')[0]} | Valor Mensal: R$ {df_casal[df_casal['ID Kit'] == i]['Valor Mensal'].iloc[0]} ({df_casal[df_casal['ID Kit'] == i]['Tipo'].iloc[0]})')
-    
+    st.markdown(f'- ### Pontuação: {df_casal[df_casal['ID Kit'] == i]['Pontuação (oculto)'].iloc[0]}')
