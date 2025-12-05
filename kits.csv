@@ -1,0 +1,68 @@
+ID Kit,Nome do Kit,Descrição,Valor Mensal,Valor Anual,Pontuação (oculto),Resultado (oculto),Tipo
+1,"Combo Básico
+ 1 delivery
+ 1 refeição fora","• 1 pedido de delivery por mês ≈ R$ 45 × 2 → R$ 90
+ • 1 refeição fora (restaurante plano 2 estrelas) no mês — cerca de R$ 60 × 2 pessoas = R$ 120",210,2520,2,,Alimentação
+2,"Combo Equilibrado
+ 2 delivery 
+ 2 refeições fora","• 2 pedido de delivery por mês ≈ R$ 50 × 4 → R$ 90
+ • 2 refeição fora (restaurante plano 3 estrelas) no mês — cerca de R$ 70 × 2 pessoas x 2 dias = R$ 280",480,5760,1,,Alimentação
+3,"Combo Diversificado
+ 4 delivery
+ 2 refeições fora","• 4 pedido de delivery por mês ≈ R$ 55 × 8 → R$ 440
+ • 2 refeição fora (restaurante plano 4 estrelas) no mês — cerca de R$ 85 × 2 pessoas x 2 dias = R$ 340",780,9360,-2,,Alimentação
+4,"Combo Conforto
+ 6 delivery
+ 4 refeições fora","• 6 pedido de delivery por mês ≈ R$ 60 × 12 → R$ 720
+ • 4 refeição fora (restaurante plano 5 estrelas) no mês — cerca de R$ 100 × 2 pessoas x 4 dias = R$ 800",1520,18240,-3,,Alimentação
+5,Kit Conexão Casal,1 passeio surpresa/mês para o casal na sua cidade ou vizinhas até um raio de 50km.,300,3600,3,Pontuação maior - casal que saem sempre juntos e gastando pouco.,"Lazer, Cultura e Compras"
+6,Kit Conexão Família,1 passeio surpresa/mês para o casal + filhos (menores de idade) na cidade ou vizinhas até um raio de 50km.,500,6000,2,,"Lazer, Cultura e Compras"
+7,Kit Premium Life - Casal,1 passeio surpresa/mês para o casal em cidades diversas pelo sudeste do país.,1300,15600,1,,"Lazer, Cultura e Compras"
+8,Kit Premium Life - Casal II,1 passeio surpresa/mês para o casal + filhos (menores de idade) em cidades diversas pelo sudeste do país.,1880,22560,1,,"Lazer, Cultura e Compras"
+9,Kit Look + Casa,"Escolha 2 peças de roupa/calçado (masculino e feminino).
+ Escolha 1 opção de item para seu lar.
+ Ganhe 1 streaming + aplicativo de música",45,540,3,Existem pacotes/promoções que atendem uma necessidade sua e que acabam incluindo um serviço de TV (streaming) ou de música junto.,"Lazer, Cultura e Compras"
+10,Kit Multimídia Total,Streaming: Netflix + Disney+ Prime Video + Globoplay + Youtube + Spotify + Xbox Ultimate ou Playstation Plus,500,6000,-3,Uso exagerado de compras de pacotes diversos de baixo custo que somando trazem prejuizos financeiros mensais/anuais.,"Lazer, Cultura e Compras"
+11,Kit Decoração Mensal,Receba itens exclusivos da Shoppe de decoração (5 peças) + cama/mesa/banho (1 item cada) para sua casa.,500,6000,-2,Compra exagerada de itens pequenos da Shoppe que trazem prejuizos financeiros mensais e anuais.,"Lazer, Cultura e Compras"
+12,Kit Look Conforto e Elegância,Escolha 10 peças de roupas/calçados no total (masculina e feminina) do nosso catálogo exclusivo.,800,9600,-2,Compra exagerada de itens pequenos da Shoppe que trazem prejuizos financeiros mensais e anuais.,"Lazer, Cultura e Compras"
+13,Kit Reserva de Emergência,Aplicação mensal de parte da renda em CDB com liquidez diária.,300,3600,2,"R$3.600,00 guardado + cerca de R$ 350,00 rendimentos.",Serviços Financeiros
+14,Kit Realização Imediata,"Empréstimo de R$ 10.000,00 para adquirir um bem de consumo de desejo.",1500,18000,-2,"Valor total à pagar de -R$8.000,00 em juros.",Serviços Financeiros
+15,Kit Novo Caminho,Investimento em um pequeno negócio planejado e controlado de empreendedorismo.,500,6000,3,"Empreendedorismo podem levar a lucros diversos, sendo bem administrado, com esforço, seu alcance pode ser muito além do valor mensal.",Serviços Financeiros
+16,Kit Investimento Retorno Dobrado,Aplicação que você conseguirá dobrar o seu investimento em 3 meses.,1000,12000,-3,Perda total (golpe),Serviços Financeiros
+17,Kit Médio Prazo,Aplicação de investimento que a retirada será daqui 3 anos.,650,7800,3,"Usando a fórmula de juros compostos:
+ Valor Final Bruto ≈ R$ 11.000,00 (aproximadamente) 
+ O lucro bruto seria de cerca de R$ 3.200,00.",Serviços Financeiros
+18,Kit Longo Prazo,Aplicação de investimento que a retirada será daqui 20 anos. Aporte mensal por 20 anos.,650,7800,3,"Cenário mais comum (IPCA + 3% ao ano): Você deve resgatar algo em torno de R$ 220 mil corrigidos em 2045 se aportar todos os meses; se for apenas 1 ano da dinâmica, algo em torno de 14mil.",Serviços Financeiros
+19,KIT Masculino Essencial,"Corte de cabelo quinzenal
+ Barba semanal
+ Sobrancelha a cada 30 dias",300,3600,-1,KIT Masculino Essencial,Saúde e Beleza
+20,Kit Feminino Essencial,"Manicure + pedicure quinzenal
+ Hidratação capilar mensal
+ Escova simples mensal",300,3600,-1,Kit Feminino Essencial,Saúde e Beleza
+21,Kit Homem Premium,"Corte + barba semanal
+ Sobrancelha quinzenal
+ 1 hidratação capilar por mês
+ 1 massagem relaxante",650,7800,-2,Kit Homem Premium,Saúde e Beleza
+22,Kit Mulher Premium,"Manicure + pedicure semanais
+ Escova semanal
+ Spa dos pés
+ Limpeza de pele mensal
+ Pilates 1x por semana",650,7800,-2,Kit Mulher Premium,Saúde e Beleza
+23,Kit Homem Elite,"Corte ilimitado
+ Barba ilimitada
+ Sobrancelha quinzenal
+ Pacote de academia mensal
+ 1 sessão de spa masculino (limpeza de pele + massagem)",1000,12000,-3,Kit Homem Elite,Saúde e Beleza
+24,Kit Mulher Supreme,"Unha + pedicure semanais
+ Escova 2x por semana
+ SPA completo (massagem + máscara facial + pés)
+ Academia + pilates combo
+ Hidratação capilar quinzenal",1000,12000,-3,Kit Mulher Supreme,Saúde e Beleza
+25,Kit Casal Essencial,"Ele: Manutenção básica (corte + barba)
+ Ela: Manutenção básica (manicure + escova)",500,6000,3,Kit Casal Essencial,Saúde e Beleza
+26,Kit Casal Premium,"Ele: Corte + barba quinzenal
+ Ela: Manicure + escova quinzenal
+ Casal: 1 sessão SPA relaxante",1000,12000,2,Kit Casal Premium,Saúde e Beleza
+27,Kit Casal Experiência Completa,"Ele: Manutenção completa (corte + barba semanal + sobrancelha)
+ Ela: Manutenção completa dela (unhas semanais + escova semanal + hidratação + limpeza de pele)
+ Casal: 1 sessão de SPA por mês + 2 aulas de pilates",1880,22560,1,Kit Casal Experiência Completa,Saúde e Beleza
