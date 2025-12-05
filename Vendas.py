@@ -36,7 +36,7 @@ colunas = ['ID Kit',
 
 with alimentacao:
     df1 =df[df['Tipo'] == 'Alimentação']
-    st.dataframe(df1[colunas])
+    st.dataframe(df1[colunas], hide_index=True)
     kit = st.radio('ID Kits Alimentação', df1['ID Kit'].unique().tolist(), horizontal=True)
     if st.button('Incluir Kit Alimentação'):
         if kit not in casais[casal]['id_kit']:
@@ -51,7 +51,7 @@ with alimentacao:
 
 with lazer:
     df1 =df[df['Tipo'] == 'Lazer, Cultura e Compras']
-    st.dataframe(df1[colunas])
+    st.dataframe(df1[colunas], hide_index=True)
     kit = st.radio('Kit Lazer, Cultura e Compras', df1['ID Kit'].unique().tolist(), horizontal=True)
     
     if st.button('Incluir Kit Lazer, Cultura e Compras'):
@@ -67,7 +67,7 @@ with lazer:
 
 with financeiros:
     df1 =df[df['Tipo'] == 'Serviços Financeiros']
-    st.dataframe(df1[colunas])
+    st.dataframe(df1[colunas], hide_index=True)
     kit = st.radio('Kit Serviços Financeiros', df1['ID Kit'].unique().tolist(), horizontal=True)
     
     if st.button('Incluir Kit Serviços Financeiros'):
@@ -84,7 +84,7 @@ with financeiros:
             
 with saude:
     df1 =df[df['Tipo'] == 'Saúde e Beleza']
-    st.dataframe(df1[colunas])
+    st.dataframe(df1[colunas], hide_index=True)
     kit = st.radio('Kit Saúde e Beleza', df1['ID Kit'].unique().tolist(), horizontal=True)
     
 
